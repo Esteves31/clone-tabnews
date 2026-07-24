@@ -1,5 +1,10 @@
 function Home() {
-    return <h1> Hello World </h1>;
+    return (
+        <div>
+            <h1> KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK </h1>
+            <img src="/koala.gif" alt="Scratching Koala Bear GIF" />
+        </div>
+    );
 }
 
 export default Home;
