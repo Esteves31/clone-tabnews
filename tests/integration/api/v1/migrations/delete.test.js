@@ -7,6 +7,6 @@ test("DELETE /api/v1/migrations should return 405 Method Not Allowed", async () 
 
     const responseBody = await response.json();
     expect(responseBody).toEqual({
-        message: "Método não permitido",
+        error: "Method DELETE not allowed",
     });
 });
